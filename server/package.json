@@ -2,13 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "license": "ISC",
   "author": "Kenia Castro",
   "description": "Backend for practice tracker",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.4"
   },
   "scripts": {
     "start": "node server.js",
